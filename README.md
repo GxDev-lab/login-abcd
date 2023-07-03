@@ -29,8 +29,7 @@ https://github.com/mackerelsky/asanataskexporter/blob/master/Asana_Exporter/Prog
 curl 'https://app.asana.com/api/1.0/projects/1204956581962734/tasks?limit=10'   -H 'Accept-Language: en-US,en;q=0.9'   -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemF0aW9uIjoxMjA0OTU3NDUzNDU4NjEwLCJzY29wZSI6ImRlZmF1bHQgaWRlbnRpdHkiLCJzdWIiOjEyMDQ5NDgxMjM0NTgxMDMsImlhdCI6MTY4ODQwOTUxOCwiZXhwIjoxNjg4NDEzMTE4fQ.GpL8pAVsetXRxVic2N3Gg5aGTJqKn2hy7H7fUHwrI3k'   --compressed --insecure
 
 
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemF0aW9uIjoxMjA0OTU3NDUzNDU4NjEwLCJzY29wZSI6ImRlZmF1bHQgaWRlbnRpdHkiLCJzdWIiOjEyMDQ5NDgxMjM0NTgxMDMsImlhdCI6MTY4ODQxNDk1MCwiZXhwIjoxNjg4NDE4NTUwfQ.UVdUpluFuxP4WNm4ShO-GbIzhaTkxCSZLfrJh3PXgJs
-
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemF0aW9uIjoxMjA0OTU3NDUzNDU4NjEwLCJzY29wZSI6ImRlZmF1bHQgaWRlbnRpdHkiLCJzdWIiOjEyMDQ5NDgxMjM0NTgxMDMsImlhdCI6MTY4ODQxOTc5MywiZXhwIjoxNjg4NDIzMzkzfQ.cX51j4ssMFG9yCA2dMIbNnQKXZgxcSyaYygDo5WeGjU
 
 
     {
