@@ -32,6 +32,7 @@ curl 'https://app.asana.com/api/1.0/projects/1204956581962734/tasks?limit=10'   
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemF0aW9uIjoxMjA0OTU3NDUzNDU4NjEwLCJzY29wZSI6ImRlZmF1bHQgaWRlbnRpdHkiLCJzdWIiOjEyMDQ5NDgxMjM0NTgxMDMsImlhdCI6MTY4ODQxOTc5MywiZXhwIjoxNjg4NDIzMzkzfQ.cX51j4ssMFG9yCA2dMIbNnQKXZgxcSyaYygDo5WeGjU
 
 
+
     {
       "gid": "1204847550988224",
       "name": "Rocky",
@@ -51,6 +52,21 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemF0aW9uIjoxMjA0OTU3NDUzNDU4NjE
 ## Auth end point details
 
 https://developers.asana.com/docs/oauth
+
+
+## code grant
+
+There is no way to exchange access tokens for refresh tokens, because access tokens are intended to be a less secure credential than refresh tokens. I should also add that subsequent redirects to the implicit grant endpoint, once the user has authorized your app, shouldn't require the user to click through again. This is the correct way to handle auth on the client: you can't use refresh tokens without your Asana API client secret, which you don't want on your client. If you need long-lived tokens on the server, then you should use an authorization code grant on the backend. – 
+
+
+
+https://stackoverflow.com/questions/39246941/can-i-use-asana-access-token-in-the-backend
+
+
+https://developers.asana.com/docs/oauth
+
+https://oauth.net/2/grant-types/authorization-code/
+
 
 
 
